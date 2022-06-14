@@ -9,12 +9,13 @@
 	flex-direction: row;
 	width: 100%;
   background-color: #1f2937;
+  justify-content: space-around;
 }
 .logo {  
   color: #f9faf8;
   font-size: 18px;
   float: left;
-  padding: 16px 0 0 0;
+  padding: 16px 50px 0 0;
 }
 .list ul {
   list-style-type: none;
@@ -32,6 +33,7 @@
   padding: 16px;
   text-decoration: none;
   font-size: 18px;
+  
 }
 .hero {
 	display: flex;
@@ -39,6 +41,7 @@
 	flex-direction: row;
   background-color: #1f2937;
   color: #f9faf8;
+
 }
 .image p {
   font-size: 18px;
