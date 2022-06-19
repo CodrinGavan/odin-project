@@ -3,75 +3,69 @@
     margin: unset;
     padding: unset;
 }
-.main {
-	display: flex;
-	justify-content: center;
-	flex-direction: row;
-	width: 100%;
-  background-color: #1f2937;
-  justify-content: space-around;
+section {
+    background-color: #1f2937;
+    padding: 16px 208px;
 }
-.logo {  
-  color: #f9faf8;
-  font-size: 24px;
-  float: left;
-  padding: 16px 150px 100px 0;
-  font-weight: bold;
+#logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
 }
-.list ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
-.list li {
-  float: right;
- 
+.header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
 }
-.list li a {
-  display: block;
-  color: #e5e7eb;
-  padding: 16px;
-  text-decoration: none;
-  font-size: 18px;
+.list a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }
-.hero {
-	display: flex;
-	justify-content: center;
-	flex-direction: row;
-  background-color: #1f2937;
-  color: #f9faf8;
+.subheader {
+    gap: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 112px 0;
 }
-
-.image p {
-  font-size: 18px;
-  font-weight: normal;
-  color: #e5e7eb;
-  background-color: grey;
-  width: 400px;
-  height: 100px;
-  padding: 80px;
-  text-align: center;
+.subheader .left .subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 10px;
 }
-.hero1 {
-   padding: 50px;
+.subheader .right {
+    width: 50%;
 }
-.hero1, .title h1 {
-  font-size: 48px;
-  color: #f9faf8;
-  font-weight: bolder;
+.title {
+    color: #F9FAF8;
+    font-weight: bolder;
+    font-size: 48px;
+    padding-bottom: 13px;
 }
-.hero1, .subtitle p {
-  font-size: 18px;
-  color: #f9faf8;
+.subheader button {
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    border: none;
+    padding: 7px;
+    color: #E5E7EB;
+    font-weight: bold;
+    font-size: 18px;
 }
-.button-top button {
-  width: 140px;
-  height: 50px;
-  background-color: blue;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 10px;
-  color: white;
-  font-size: 18px;
+.image {
+    background-color: gray;
+    height: 230px;
+    width: 500px;
+}
+.placeholder {
+    text-align: center;
+    padding: 100px 0;
+    color: #E5E7EB;
+    font-size: 18px;
 }
