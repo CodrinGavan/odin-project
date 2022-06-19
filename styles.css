@@ -3,11 +3,16 @@
     margin: unset;
     padding: unset;
 }
+body {
+  background-image: url(https://images.unsplash.com/photo-1632341607222-ccdcd5904dae?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80);
+  background-repeat: no-repeat;
+  
+}
 section {
-    background-color: #1f2937;
+    background-color: rgba(8, 32, 255, 0.12);
     padding: 16px 208px;
 }
-#logo {
+.logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
@@ -50,13 +55,14 @@ section {
 }
 .subheader button {
     width: 120px;
-    background-color: #3882F6;
+    background-color: rgba(9, 29, 88, 0.67);
     border-radius: 8px;
     border: none;
     padding: 7px;
     color: #E5E7EB;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
 }
 .image {
     background-color: gray;
@@ -68,4 +74,100 @@ section {
     padding: 100px 0;
     color: #E5E7EB;
     font-size: 18px;
+}
+section1 h2 {
+    text-align: center;
+    font-size: 36px;
+    padding: 40px;
+    color: gray;
+}
+section1 .subtext {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 70px;
+}
+.subtext .photos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 250px;
+}
+.subtext img {
+  padding: 30px 0 20px 0;
+  width: 300px;  
+}
+section2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 112px 208px;
+  background-color: rgba(215, 216, 219, 0.67);
+  margin: 120px 0 20px 0;
+}
+.quote {
+  font-style: italic;
+  font-size: 32px;
+  color: gray;
+}
+section2 .from p {
+  font-weight: bolder;
+  font-size: 24px;
+  color: black;
+  float: right;
+  padding: 5px;
+}
+
+section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 208px;
+
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(15, 33, 88, 0.41);
+  padding: 48px;
+  width: 100%;
+  border-radius: 10px;
+}
+.sign {
+  width: 120px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 2px solid #E5E7EB;
+  padding: 7px;
+  color: #E5E7EB;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+.cta h3 {
+  font-weight: bolder;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+.cta p {
+  
+  font-size: 18px;
+  color: #F9FAF8;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(9, 29, 88, 0.67);
+  color: #F9FAF8;
+  padding: 40px 0;
+  gap: 24px;
+  
+}
+.footer a {
+  font-size: 18px;
+  color: red;
+  text-decoration: none;
 }
