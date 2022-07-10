@@ -65,16 +65,11 @@ section {
   cursor: pointer;
 }
 .image {
-  background-color: gray;
+  
   height: 230px;
   width: 500px;
 }
-.placeholder {
-  text-align: center;
-  padding: 100px 0;
-  color: #E5E7EB;
-  font-size: 18px;
-}
+
 section1 h2 {
   text-align: center;
   font-size: 36px;
